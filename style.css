@@ -25,6 +25,17 @@ h2{
     font-weight: 800;
 
 }
+
+h4{
+    font-family: "Helvetica";
+    color: white;
+    font-size: 3.4vh;
+    padding-top: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-shadow: 1px 1px rgb(57, 7, 7), 0 0 red;
+}
+
 #header{
     font-family: "Segoe UI";
     display: flex;
@@ -90,16 +101,6 @@ h2{
     color: rgb(52, 224, 52);
 }
 
-
-h4{
-    font-family: "Helvetica";
-    color: white;
-    font-size: 3.4vh;
-    padding-top: 30px;
-    text-transform: capitalize;
-    font-weight: 900;
-    text-shadow: 1px 1px rgb(57, 7, 7), 0 0 red;
-}
 #features{
     display: flex;
     padding:50px;
@@ -148,4 +149,62 @@ h4{
 }
 #features .card:nth-child(3).card:hover{
     background-color: #9ec4df;
+}
+
+.service-card{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width:550px;
+    padding-bottom: 15px;
+    margin:15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.service-card:hover{
+    background-color: #e8eff3;
+}
+#services{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#services-title{
+    display: flex;
+    color: tomato;
+    padding-left: 20px;
+    padding-top:30px;
+    border-bottom:1px solid whitesmoke;
+}
+#services .trailer img{
+    padding-top: 30px;
+    width: 200px;
+
+}
+#services .trailer:hover img{
+    opacity: 0.3;
+}
+#services .service-card:nth-child(2) h3{
+    text-align: right;
+    position: absolute;
+    padding-bottom: 30px;
+    bottom:0;
+    left:5%;
+    color: #3f826d;
+}
+#services .service-card:nth-child(4) h3{
+    text-align: center;
+    position: absolute;
+    padding-bottom: 20px;
+    bottom:0;
+    color: #3f826d;
+}
+
+#services .service-card h3{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #3f826d;
 }
