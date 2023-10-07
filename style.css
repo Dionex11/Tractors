@@ -208,3 +208,68 @@ h4{
     padding-bottom: 10px;
     color: #3f826d;
 }
+
+#service .service-card{
+    float: left;
+    height: 50%;
+    padding: 20px;
+    width: 35%;
+}
+.servicedesc {
+    float:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 50px;
+
+}
+#service .service-card img{
+    height: 400px;
+    width: 80%;
+}
+.servicedesc h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom-color: beige;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.servicedesc h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.servicedesc .btn{
+    margin-top:20px;
+    padding: 20px;
+}
+
+p{
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+#sform{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+label{
+    color: white;
+    padding: 20px;
+    align-items: left !important;
+    text-align: left;
+}
+input{
+    height:30px;
+    width: 40%;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+input[type="number"]{
+    width:10%;
+    border-radius: 2px;
+    background-color: antiquewhite;
+    color:red;
+}
